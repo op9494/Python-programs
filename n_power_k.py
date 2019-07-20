@@ -1,3 +1,3 @@
-n,k=map(int,input().split())
-s=n**k
-print(s)
+no,ki=map(int,input().split())
+sq=no**ki
+print(sq)
