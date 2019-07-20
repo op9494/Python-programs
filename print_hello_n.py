@@ -1,3 +1,3 @@
-n = int(input())
-for i in range(n):
-    print ("hello")
+no = int(input())
+for i in range(no):
+    print("hello")
