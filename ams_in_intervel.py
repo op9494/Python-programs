@@ -8,4 +8,4 @@ for n in range(l,u+1):
        t//= 10
  
    if n==s:
-       print(n)
+       print(n,"",end="")
