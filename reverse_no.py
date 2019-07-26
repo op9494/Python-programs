@@ -1,5 +1,5 @@
-n1,n2=map(int,input().split())
-t=n1
-n1=n2
-n2=t
-print(n1,n2)
+no1,no2=map(int,input().split())
+tem=no1
+no1=no2
+no2=tem
+print(no1,no2)
