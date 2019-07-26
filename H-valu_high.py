@@ -1,35 +1,24 @@
-def printMaximum(num): 
+def findMaxNum(arr, n): 
+      
+
+    hash = [0] * 10
+      
+
+    for i in range(n): 
+        hash[arr[i]] += 1
+      
+ 
+    for i in range(9, -1, -1): 
+          
+    
+        for j in range(hash[i]): 
+            print(i, end = "") 
+  
+
+if __name__ == "__main__":
+        n=int(input())
+t=list(map(int,input().strip().split()))[:n]    
+    
+findMaxNum(t,n) 
 
  
-	count = [0 for x in range(10)] 
-
-	
-	string = str(num) 
-
-
-	for i in range(len(string)): 
-		count[int(string[i])] = count[int(string[i])] + 1
-
-	
-	result = 0
-	multiplier = 1
-
-
-	for i in range(10): 
-		while count[i] > 0: 
-			result = result + ( i * multiplier ) 
-			count[i] = count[i] - 1
-			multiplier = multiplier * 10
-
-	
-	return result 
-
-
-n=int(input())
-nu =int(input())
-print (printMaximum(nu)) 
-
- 
-
-
-
